@@ -6,9 +6,12 @@ OUTPUT=gregdan3-resume.pdf
 
 THEME=Elegant
 
-.PHONY: serve validate all
+.PHONY: serve validate all init
 
 all: $(OUTDIR)/$(OUTPUT)
+
+init:
+	npm install
 
 $(OUTDIR)/$(OUTPUT): $(INPUT)
 	@mkdir -p $(@D)
