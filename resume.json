@@ -1,0 +1,198 @@
+{
+  "basics": {
+    "name": "Gregory Danielson III",
+    "label": "Software Developer",
+    "image": "",
+    "email": "gregdan3@protonmail.com",
+    "email2": "gregory.danielson3@gmail.com",
+    "phone": "(205) 410-3412",
+    "url": "https://github.com/gregdan3",
+    "summary": "Highly motivated and capable software developer, seeking a challenging and novel position to grow my experience and understanding in the field. Looking to discover new topics, discuss and solve new problems, and contribute meaningful and relevant tools to the world.",
+    "location": {
+      "city": "Hoover",
+      "countryCode": "US",
+      "region": "Alabama"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "gregdan3",
+        "url": "https://www.linkedin.com/in/gregdan3/"
+      },
+      {
+        "network": "Twitter",
+        "username": "gregdan3d",
+        "url": "https://twitter.com/gregdan3d"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "UAB Computer Forensics Research Laboratory",
+      "position": "Software Developer",
+      "url": "https://www.uab.edu/cas/computerscience/research/research-labs/computer-forensics",
+      "startDate": "2018-10-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "University of Alabama at Birmingham",
+      "position": "Teaching Assistant",
+      "url": "https://www.uab.edu/cas/computerscience/",
+      "startDate": "2019-01-07",
+      "endDate": "2021-05-01",
+      "summary": "CS330 Computer Architecture and Assembly",
+      "highlights": [
+        "Developed and re-designed assignment structure",
+        "Created most documents used in lab materials",
+        "Developed consistent grading methodology",
+        "Ensured the success of hundreds of students in deeply understanding intel x86_64 ASM"
+      ]
+    },
+    {
+      "name": "UAB Computer Forensics Research Laboratory",
+      "position": "Programmer Supervisor",
+      "url": "https://www.uab.edu/cas/computerscience/research/research-labs/computer-forensics",
+      "startDate": "2018-12-01",
+      "endDate": "2019-03-27",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "Harbor Freight",
+      "position": "Team Member, Cashier",
+      "url": "https://www.harborfreight.com/",
+      "startDate": "2017-06-15",
+      "endDate": "2018-09-28",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Alabama at Birmingham",
+      "url": "https://www.uab.edu/",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2020-08-15",
+      "endDate": "2021-05-01",
+      "score": "4.0",
+      "courses": [
+        "CS632 Parallel Computing",
+        "CS636 Computer Security",
+        "CS643 Cloud Security",
+        "CS652 Advanced Algorithms and Applications",
+        "CS660 Artificial Intelligence"
+      ]
+    },
+    {
+      "institution": "University of Alabama at Birmingham",
+      "url": "https://www.uab.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2016-08-15",
+      "endDate": "2020-08-15",
+      "score": "3.76",
+      "courses": [
+        "CS334 Networking",
+        "CS401 Programming Languages",
+        "CS420 Software Engineering"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "President's List",
+      "awarder": "University of Alabama at Birmingham",
+      "summary": "Qualified for President's List (achieved 4.0 GPA after taking 12+ credit hours) in 3 out of 8 semesters."
+    },
+    {
+      "title": "Dean's List",
+      "awarder": "University of Alabama at Birmingham",
+      "summary": "Qualified for Dean's's List (achieved  >=3.6 GPA after taking 12+ credit hours) in 4 out of 8 semesters."
+    },
+    {
+      "title": "Presidential Recognition Scholarship",
+      "date": "2016-08-15",
+      "awarder": "University of Alabama at Birmingham",
+      "summary": "Highly competitive academic scholarship providing full tuition payment for UAB students qualifying via their academic accomplishments before college"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Cyber Security Certificate",
+      "date": "2021-05-01",
+      "awarder": "University of Alabama at Birmingham",
+      "summary": "Successfully completed a selection of courses centered on technological security throughout the completion of a Master of Science in Computer Science."
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jonathan Frees",
+      "position": "Lead Software Developer at Computer Forensics Research Laboratory",
+      "reference": "",
+      "email": "jmfrees@uab.edu",
+      "phone": "(205) 422-2113"
+    },
+    {
+      "name": "Gary Warner",
+      "position": [
+        "Lab Coordinator at Computer Forensics Research Laboratory",
+        "Professor at University of Alabama at Birmingham"
+      ],
+      "reference": "",
+      "email": "gar@uab.edu",
+      "phone": "(205) 422-2113"
+    },
+    {
+      "name": "Mahmut Unan",
+      "position": "Professor at University of Alabama at Birmingham",
+      "reference": "",
+      "email": "unan@uab.edu",
+      "phone": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "n2yo-scraper",
+      "description": "",
+      "highlights": [],
+      "keywords": ["Javascript", "D3", "Design"],
+      "url": "https://coolspacethings.neocities.org/",
+      "type": "application"
+    },
+    {
+      "name": "Cool Space Things",
+      "description": "A novel visualization of satellite metadata from n2yo",
+      "highlights": [],
+      "keywords": ["Javascript", "D3", "Design"],
+      "url": "https://coolspacethings.neocities.org/",
+      "type": "application"
+    },
+    {
+      "name": "wttr.in",
+      "description": "A weather service for your terminal. `curl https://wttr.in/`",
+      "highlights": [
+        "Corrected a longstanding bug where the province (or state, for the US) would be omitted when searching for the current weather. For example, searching for the weather from Helena, Alabama would return the weather for Helena, Montana.",
+        "Adjusted the cache system in a backwards compatible manner to keep otherwise unused information resulting from geolocation lookups."
+      ],
+      "keywords": ["Python", "Go", "Geolocation", "Weather"],
+      "url": "https://wttr.in/",
+      "roles": ["Contributor"],
+      "type": "application"
+    }
+  ]
+}

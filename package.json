@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "resume-cli": "^3.0.5",
+    "resume-schema": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
