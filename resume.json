@@ -6,7 +6,7 @@
     "email": "gregdan3@protonmail.com",
     "email2": "gregory.danielson3@gmail.com",
     "phone": "(205) 410-3412",
-    "url": "https://github.com/gregdan3",
+    "url": "https://gregdan3.neocities.org/gregdan3",
     "summary": "Highly motivated and capable software developer, seeking a challenging and novel position to grow my experience and understanding in the field. Looking to discover new topics, discuss and solve new problems, and contribute meaningful and relevant tools to the world.",
     "location": {
       "city": "Hoover",
@@ -15,9 +15,29 @@
     },
     "profiles": [
       {
+        "network": "Github",
+        "username": "gregdan3",
+        "url": "https://github.com/gregdan3d"
+      },
+      {
+        "network": "Gitlab",
+        "username": "gregdan3",
+        "url": "https://gitlab.com/gregdan3"
+      },
+      {
+        "network": "Keybase",
+        "username": "gregdan3",
+        "url": "https://keybase.io/gregdan3"
+      },
+      {
         "network": "Linkedin",
         "username": "gregdan3",
         "url": "https://www.linkedin.com/in/gregdan3/"
+      },
+      {
+        "network": "Reddit",
+        "username": "gregdan3d",
+        "url": "https://www.reddit.com/user/gregdan3d"
       },
       {
         "network": "Twitter",
@@ -33,7 +53,15 @@
       "url": "https://www.uab.edu/cas/computerscience/research/research-labs/computer-forensics",
       "startDate": "2018-10-01",
       "summary": "",
-      "highlights": [""]
+      "highlights": [
+        "Developed and maintained tools for capturing content from social media including Twitter, Reddit, and many other OSINT data sources",
+        "Developed a database design methodology for storing mass social media, OSINT data from a variety of sources and in a variety of formats into different PostgreSQL databases",
+        "Contributed to the design and implementation of a new access control system for use within the Computer Forensics Research Lab",
+        "Contributed to the design of many supportive webapps for accessing and analyzing aforementioned captured data",
+        "Re-designed devops methodology, webapp deploy process used by CFRL to enable developers to better test their applications locally and in CI",
+        "Researched and deployed an Elasticsearch cluster for use with ZomboDB, allowing elasticsearch-supported full text search in the form of a PostgreSQL index",
+        "Maintained and administered a pair of high performance CentOS servers for serving end users, mass compute, mass storage of data, running workers for aforementioned data capturing tools"
+      ]
     },
     {
       "name": "University of Alabama at Birmingham",
@@ -56,7 +84,7 @@
       "startDate": "2018-12-01",
       "endDate": "2019-03-27",
       "summary": "",
-      "highlights": [""]
+      "highlights": []
     },
     {
       "name": "Harbor Freight",
@@ -128,9 +156,78 @@
   ],
   "skills": [
     {
-      "name": "",
-      "level": "",
+      "name": "Web Scraping",
+      "keywords": ["Requests", "Archive"]
+    },
+    {
+      "name": "Education",
+      "keywords": ["tutoring", "lecture", "lesson planning", "organization"]
+    },
+    {
+      "name": "Systems Administration",
+      "keywords": ["bash", "cron", "linux", "yum", "CentOS", "ArchLinux"]
+    },
+    {
+      "name": "Database Administration",
+      "keywords": ["SQL", "optimization"]
+    },
+    {
+      "name": "Python",
+      "keywords": [
+        "numpy",
+        "scipy",
+        "psycopg2",
+        "asyncio",
+        "flask",
+        "requests",
+        "aiohttp",
+        "spacy",
+        "pandas"
+      ]
+    },
+    {
+      "name": "C/C++",
       "keywords": []
+    },
+    {
+      "name": "Javascript",
+      "keywords": ["D3"]
+    },
+    {
+      "name": "SQL",
+      "keywords": []
+    },
+    {
+      "name": "Intel x86_64",
+      "keywords": ["Assembly", "x86_64"]
+    },
+    {
+      "name": "Linux",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "keywords": ["SQL", "Administration"]
+    },
+    {
+      "name": "RabbitMQ",
+      "keywords": []
+    },
+    {
+      "name": "Traefik",
+      "keywords": ["Routing"]
+    },
+    {
+      "name": "Docker",
+      "keywords": [
+        "Automation",
+        "Continuous Integration",
+        "Continuous Deployment"
+      ]
+    },
+    {
+      "name": "Apache",
+      "keywords": ["Routing"]
     }
   ],
   "languages": [
