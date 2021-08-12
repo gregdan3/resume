@@ -2,7 +2,7 @@
   "basics": {
     "name": "Gregory Danielson III",
     "label": "Software Developer",
-    "image": "",
+    "image": "https://avatars.githubusercontent.com/u/28300107",
     "email": "gregdan3@protonmail.com",
     "email2": "gregory.danielson3@gmail.com",
     "phone": "(205) 410-3412",
@@ -43,6 +43,11 @@
         "network": "Twitter",
         "username": "gregdan3d",
         "url": "https://twitter.com/gregdan3d"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "gregdan3",
+        "url": "https://stackoverflow.com/story/gregdan3"
       }
     ]
   },
@@ -156,86 +161,74 @@
   ],
   "skills": [
     {
-      "name": "Web Scraping",
-      "keywords": ["Requests", "Archive"]
+      "name": "Architecture",
+      "keywords": [
+        "Apache",
+        "Docker",
+        "Elasticsearch",
+        "Flask",
+        "Graylog",
+        "Gunicorn",
+        "Kibana",
+        "Logstash",
+        "MongoDB",
+        "Nginx",
+        "Phusion Passenger",
+        "PostgreSQL",
+        "RabbitMQ",
+        "Redis",
+        "Traefik"
+      ]
+    },
+    { "name": "Assembly", "keywords": ["Intel x86_64", "GNU"] },
+    { "name": "C/C++", "keywords": ["Education", "Make"] },
+    { "name": "Cyber Security" },
+    {
+      "name": "Database Administration",
+      "keywords": ["SQL", "MySQL", "PostgreSQL", "ZomboDB", "SQLite", "MongoDB"]
+    },
+    {
+      "name": "Devops",
+      "keywords": [
+        "Continuous Integration",
+        "Continuous Deployment",
+        "Unit Testing",
+        "Git",
+        "Version Control",
+        "Agile"
+      ]
     },
     {
       "name": "Education",
-      "keywords": ["tutoring", "lecture", "lesson planning", "organization"]
+      "keywords": ["Lecture", "Lesson Planning", "Organization", "Tutoring"]
     },
+    { "name": "Java", "keywords": ["JavaFX", "Swing"] },
+    { "name": "Javascript", "keywords": ["D3", "React"] },
     {
-      "name": "Systems Administration",
-      "keywords": ["bash", "cron", "linux", "yum", "CentOS", "ArchLinux"]
-    },
-    {
-      "name": "Database Administration",
-      "keywords": ["SQL", "optimization"]
+      "name": "Networking",
+      "keywords": ["DNS", "Bind9", "VPN", "TCP"]
     },
     {
       "name": "Python",
       "keywords": [
-        "numpy",
-        "scipy",
-        "psycopg2",
-        "asyncio",
-        "flask",
-        "requests",
-        "aiohttp",
-        "spacy",
-        "pandas"
+        "Asyncio",
+        "Flask",
+        "Gunicorn",
+        "Numpy",
+        "Pandas",
+        "Requests",
+        "Scipy",
+        "SpaCy"
       ]
     },
     {
-      "name": "C/C++",
-      "keywords": []
+      "name": "Systems Administration",
+      "keywords": ["Cron", "Bash", "CentOS", "Linux", "Archlinux", "Debian"]
     },
-    {
-      "name": "Javascript",
-      "keywords": ["D3"]
-    },
-    {
-      "name": "SQL",
-      "keywords": []
-    },
-    {
-      "name": "Intel x86_64",
-      "keywords": ["Assembly", "x86_64"]
-    },
-    {
-      "name": "Linux",
-      "keywords": []
-    },
-    {
-      "name": "PostgreSQL",
-      "keywords": ["SQL", "Administration"]
-    },
-    {
-      "name": "RabbitMQ",
-      "keywords": []
-    },
-    {
-      "name": "Traefik",
-      "keywords": ["Routing"]
-    },
-    {
-      "name": "Docker",
-      "keywords": [
-        "Automation",
-        "Continuous Integration",
-        "Continuous Deployment"
-      ]
-    },
-    {
-      "name": "Apache",
-      "keywords": ["Routing"]
-    }
+    { "name": "Vim", "keywords": ["Development"] },
+    { "name": "Web Scraping", "keywords": ["OSINT", "Archival"] }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
+  "languages": [{ "language": "English", "fluency": "Native speaker" }],
   "references": [
     {
       "name": "Jonathan Frees",
