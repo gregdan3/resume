@@ -20,7 +20,7 @@ $(OUTDIR)/$(OUTPUT): $(INPUT)
 	$(RESUMECLI) export ./$(OUTDIR)/$(OUTPUT) --theme $(THEME)
 
 clean:
-	rm $(OUTDIR)/$(OUTPUT)
+	rm -f $(OUTDIR)/$(OUTPUT)
 
 serve: $(INPUT)
 	$(RESUMECLI) serve --theme $(THEME)
