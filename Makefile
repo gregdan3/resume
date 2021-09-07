@@ -1,29 +1,29 @@
 RESUMECLI=$(shell npm bin)/resume
 
 INPUT=resume.json
-OUTDIR=out
-OUTPUT=gregdan3-resume.pdf
-
 THEME=kendall
 
-.PHONY: serve validate all init clean build
+BUILD_OUTDIR=./out
+BUILD_OUTPUT=gregdan3-resume.pdf
+SERVE_OUTDIR=./public
+SERVE_OUTPUT=index.html
+# TODO: SERVE_OUTPUT changes depending on theme
 
-all: $(OUTDIR)/$(OUTPUT)
+.PHONY: build serve init validate clean
 
-build: all
-
-init:
-	npm install
-
-$(OUTDIR)/$(OUTPUT): $(INPUT)
+build: $(BUILD_OUTDIR)/$(BUILD_OUTPUT)
+serve: $(SERVE_OUTDIR)/$(SERVE_OUTPUT)
+force: clean build
+$(BUILD_OUTDIR)/$(BUILD_OUTPUT): $(INPUT)
 	@mkdir -p $(@D)
-	$(RESUMECLI) export ./$(OUTDIR)/$(OUTPUT) --theme $(THEME)
+	$(RESUMECLI) export $(BUILD_OUTDIR)/$(BUILD_OUTPUT) --theme $(THEME)
+$(SERVE_OUTDIR)/$(SERVE_OUTPUT): $(INPUT)
+	@mkdir -p $(@D)
+	$(RESUMECLI) serve $(SERVE_OUTDIR)/$(SERVE_OUTPUT) --theme $(THEME)
 
-clean:
-	rm -f $(OUTDIR)/$(OUTPUT)
-
-serve: $(INPUT)
-	$(RESUMECLI) serve --theme $(THEME)
-
+init: package.json package-lock.json  # insurance
+	npm install
 validate: $(INPUT)
 	$(RESUMECLI) validate
+clean:
+	rm -f $(BUILD_OUTDIR)/$(BUILD_OUTPUT) $(SERVE_OUTDIR)/$(SERVE_OUTPUT)
