@@ -10,6 +10,8 @@ THEME=flat
 
 all: $(OUTDIR)/$(OUTPUT)
 
+build: all
+
 init:
 	npm install
 
