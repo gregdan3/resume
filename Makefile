@@ -6,7 +6,7 @@ OUTPUT=gregdan3-resume.pdf
 
 THEME=flat
 
-.PHONY: serve validate all init
+.PHONY: serve validate all init clean build
 
 all: $(OUTDIR)/$(OUTPUT)
 
