@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Gregory Danielson III",
-    "label": "Software Developer",
+    "label": "Software Engineer",
     "image": "https://avatars.githubusercontent.com/u/28300107",
     "email": "gregdan3@protonmail.com",
     "email2": "gregory.danielson3@gmail.com",
     "phone": "(205) 410-3412",
-    "url": "https://gregdan3.neocities.org/gregdan3",
+    "url": "https://gregdan3.neocities.org/",
     "summary": "Highly motivated and capable software developer, seeking a challenging and novel position to grow my experience and understanding in the field. Looking to discover new topics, discuss and solve new problems, and contribute meaningful and relevant tools to the world.",
     "location": {
       "city": "Hoover",
@@ -45,7 +45,7 @@
         "url": "https://twitter.com/gregdan3d"
       },
       {
-        "network": "Stack Overflow",
+        "network": "StackOverflow",
         "username": "gregdan3",
         "url": "https://stackoverflow.com/story/gregdan3"
       }
@@ -181,7 +181,15 @@
       ]
     },
     { "name": "Assembly", "keywords": ["Intel x86_64", "GNU"] },
+    {
+      "name": "Backend Development",
+      "keywords": ["Web Scraping", "Design", "Python", "SQL"]
+    },
     { "name": "C/C++", "keywords": ["Education", "Make"] },
+    {
+      "name": "Cloud Computing",
+      "keywords": ["AWS", "DigitalOcean", "Ansible"]
+    },
     { "name": "Cyber Security" },
     {
       "name": "Database Administration",
@@ -226,9 +234,8 @@
       "keywords": ["Cron", "Bash", "CentOS", "Linux", "Archlinux", "Debian"]
     },
     { "name": "Vim", "keywords": ["Development"] },
-    { "name": "Web Scraping", "keywords": ["OSINT", "Archival"] }
+    { "name": "Web Scraping", "keywords": ["OSINT", "Archival", "Backend"] }
   ],
-  "languages": [{ "language": "English", "fluency": "Native speaker" }],
   "references": [
     {
       "name": "Jonathan Frees",
