@@ -4,7 +4,7 @@ INPUT=resume.json
 OUTDIR=out
 OUTPUT=gregdan3-resume.pdf
 
-THEME=flat
+THEME=kendall
 
 .PHONY: serve validate all init clean build
 
