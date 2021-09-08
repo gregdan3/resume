@@ -20,6 +20,6 @@ jobs:
       - run: make init build
       - uses: actions/upload-artifact@v2
         with:
-          name: gregdan3-resume.pdf
-          path: ./out/gregdan3-resume.pdf
+          # name: "*-resume.*"
+          path: "./out/*-resume.*"
           if-no-files-found: error
