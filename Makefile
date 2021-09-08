@@ -4,7 +4,7 @@ INPUT=resume.json
 THEME=kendall
 
 BUILD_OUTDIR=./out
-BUILD_OUTPUT=gregdan3-resume.pdf
+BUILD_OUTPUT=gregdan3-resume.html
 SERVE_OUTDIR=./public
 SERVE_OUTPUT=index.html
 # TODO: SERVE_OUTPUT changes depending on theme
