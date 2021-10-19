@@ -6,7 +6,7 @@
     "email": "gregdan3@protonmail.com",
     "email2": "gregory.danielson3@gmail.com",
     "phone": "(205) 410-3412",
-    "url": "https://gregdan3.neocities.org/",
+    "url": "https://github.com/gregdan3/",
     "summary": "Highly motivated and capable software developer, seeking a challenging and novel position to grow my experience and understanding in the field. Looking to discover new topics, discuss and solve new problems, and contribute meaningful and relevant tools to the world.",
     "location": {
       "city": "Hoover",
@@ -257,7 +257,7 @@
       "name": "n2yo-scraper",
       "description": "",
       "highlights": [],
-      "keywords": ["Javascript", "D3", "Design"],
+      "keywords": ["Webscraping"],
       "url": "https://coolspacethings.neocities.org/",
       "type": "application"
     },
