@@ -1,285 +1,488 @@
 {
-  "basics": {
-    "name": "Gregory Danielson III",
-    "label": "Software Engineer",
-    "image": "https://avatars.githubusercontent.com/u/28300107",
-    "email": "gregdan3@protonmail.com",
-    "email2": "gregory.danielson3@gmail.com",
-    "phone": "(205) 410-3412",
-    "url": "https://github.com/gregdan3/",
-    "summary": "Highly motivated and capable software developer, seeking a challenging and novel position to grow my experience and understanding in the field. Looking to discover new topics, discuss and solve new problems, and contribute meaningful and relevant tools to the world.",
-    "location": {
-      "city": "Hoover",
-      "countryCode": "US",
-      "region": "Alabama"
+    "basics": {
+        "name": "Gregory Danielson III",
+        "label": "Senior Software Engineer",
+        "image": "https://user-images.githubusercontent.com/28300107/194593566-b9b3247d-33d6-4f26-98c0-7c35184e6f97.png",
+        "image_old": "https://user-images.githubusercontent.com/28300107/194460377-ed121b18-0131-4406-98d5-38b7fadb1c29.png",
+        "email": "gregory.danielson3@gmail.com",
+        "email2": "gregdan3@protonmail.com",
+        "email3": "gregdan3@pm.me",
+        "phone": "(205) 410-3412",
+        "url": "https://gregdan3.github.io",
+        "summary": "Senior software engineer seeking novel engineering and research positions to gain new understandings. Looking to solve unique problems, learn valuable skills, and contribute to an engaging team. Strong interest in natural language processing related to data engineering, language acquisition, and persuasion.",
+        "location": {
+            "city": "Birmingham",
+            "region": "AL",
+            "countryCode": "US"
+        },
+        "profiles": [
+            {
+                "network": "Github",
+                "username": "gregdan3",
+                "url": "https://github.com/gregdan3"
+            },
+            {
+                "network": "Gitlab",
+                "username": "gregdan3",
+                "url": "https://gitlab.com/gregdan3"
+            },
+            {
+                "network": "Linkedin",
+                "username": "gregdan3",
+                "url": "https://www.linkedin.com/in/gregdan3/"
+            },
+            {
+                "network": "Keybase",
+                "username": "gregdan3",
+                "url": "https://keybase.io/gregdan3"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "Github",
-        "username": "gregdan3",
-        "url": "https://github.com/gregdan3"
-      },
-      {
-        "network": "Gitlab",
-        "username": "gregdan3",
-        "url": "https://gitlab.com/gregdan3"
-      },
-      {
-        "network": "Keybase",
-        "username": "gregdan3",
-        "url": "https://keybase.io/gregdan3"
-      },
-      {
-        "network": "Linkedin",
-        "username": "gregdan3",
-        "url": "https://www.linkedin.com/in/gregdan3/"
-      },
-      {
-        "network": "StackOverflow",
-        "username": "gregdan3",
-        "url": "https://stackoverflow.com/story/gregdan3"
-      }
+    "work": [
+        {
+            "name": "UAB Computer Forensics Research Laboratory",
+            "position": "Senior Software Developer",
+            "url": "https://www.uab.edu/cas/computerscience/research/research-labs/computer-forensics",
+            "startDate": "2018-10-01",
+            "summary": "Database and systems administration, devops, backend development, archicture, and leadership.",
+            "highlights": [
+                "Led projects that ended in the signing of high-value contracts, including the acquisition of a $750,000 contract for our work on Twitter",
+                "Developed and maintained tools for capturing content from social media including Twitter, Facebook, Instagram, and other OSINT data sources",
+                "Developed a design methodology for storing social media en masse, OSINT data from a variety of sources and in a variety of formats into different PostgreSQL databases",
+                "Contributed to the design and implementation of a new access control system for use within the Computer Forensics Research Lab",
+                "Contributed to the design of many supportive webapps for accessing and analyzing aforementioned captured data",
+                "Re-designed devops methodology, webapp deploy process used by CFRL to enable developers to better test their applications locally and in CI",
+                "Researched and deployed an Elasticsearch cluster, allowing elasticsearch-supported full text search in the form of a PostgreSQL index",
+                "Maintained and administered a pair of high performance CentOS servers for serving end users, mass compute, mass storage of data, running workers for aforementioned data capturing tools"
+            ]
+        },
+        {
+            "name": "University of Alabama at Birmingham",
+            "position": "Teaching Assistant",
+            "url": "https://www.uab.edu/cas/computerscience/",
+            "startDate": "2019-01-07",
+            "endDate": "2021-05-01",
+            "summary": "CS330 Computer Architecture and Assembly",
+            "highlights": [
+                "Developed and re-designed assignment structure",
+                "Created most documents used in lab materials",
+                "Developed consistent grading methodology",
+                "Ensured the success of hundreds of students in deeply understanding intel x86_64 ASM"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Alabama at Birmingham",
+            "url": "https://www.uab.edu/",
+            "area": "Computer Science",
+            "studyType": "Bachelor",
+            "startDate": "2016-08-15",
+            "endDate": "2020-08-15",
+            "score": "3.76",
+            "courses": [
+                "CS334 Networking",
+                "CS401 Programming Languages",
+                "CS420 Software Engineering"
+            ]
+        },
+        {
+            "institution": "University of Alabama at Birmingham",
+            "url": "https://www.uab.edu/",
+            "area": "Computer Science",
+            "studyType": "Master",
+            "startDate": "2020-08-15",
+            "endDate": "2021-05-01",
+            "score": "4.0",
+            "courses": [
+                "CS632 Parallel Computing",
+                "CS636 Computer Security",
+                "CS643 Cloud Security",
+                "CS652 Advanced Algorithms and Applications",
+                "CS660 Artificial Intelligence"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "President's List",
+            "awarder": "University of Alabama at Birmingham",
+            "summary": "Qualified for President's List (achieved 4.0 GPA in 12+ credit hours of classes) in 3 out of 8 semesters."
+        },
+        {
+            "title": "Dean's List",
+            "awarder": "University of Alabama at Birmingham",
+            "summary": "Qualified for Dean's's List (achieved  >=3.6 GPA in 12+ credit hours of classes) in 4 out of 8 semesters."
+        },
+        {
+            "title": "Presidential Recognition Scholarship",
+            "date": "2016-08-15",
+            "awarder": "University of Alabama at Birmingham",
+            "summary": "Highly competitive academic scholarship providing full tuition payment for UAB students qualifying via their academic accomplishments before college"
+        }
+    ],
+    "certificates": [
+        {
+            "title": "Cyber Security Certificate",
+            "date": "2021-05-01",
+            "awarder": "UAB",
+            "summary": "Successfully completed a series of courses on technological security throughout the completion of a Master of Science in Computer Science."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Architecture",
+            "level": "Expert",
+            "keywords": [
+                "Apache",
+                "Docker",
+                "Elasticsearch",
+                "Kibana",
+                "Logstash",
+                "MongoDB",
+                "Phusion Passenger",
+                "Podman",
+                "PostgreSQL",
+                "RabbitMQ",
+                "Redis",
+                "Traefik"
+            ]
+        },
+        {
+            "name": "Backend",
+            "level": "Expert",
+            "keywords": [
+                "Web Scraping",
+                "Design",
+                "Python",
+                "SQL",
+                "Microservices"
+            ]
+        },
+        {
+            "name": "Cloud Computing",
+            "level": "Intermediate",
+            "keywords": [
+                "AWS",
+                "GCP",
+                "DigitalOcean",
+                "Ansible",
+                "Microservices"
+            ]
+        },
+        {
+            "name": "Database Administration",
+            "level": "Advanced",
+            "keywords": [
+                "PostgreSQL",
+                "Elasticsearch",
+                "SQL",
+                "MySQL",
+                "ZomboDB",
+                "SQLite",
+                "MongoDB"
+            ]
+        },
+        {
+            "name": "Devops",
+            "level": "Advanced",
+            "keywords": [
+                "Continuous Integration",
+                "Continuous Deployment",
+                "Docker",
+                "Unit Testing",
+                "Agile"
+            ]
+        },
+        {
+            "name": "Education, Public Speaking",
+            "level": "Expert",
+            "keywords": [
+                "Lecture",
+                "Lesson Planning",
+                "Organization",
+                "Tutoring"
+            ]
+        },
+        {
+            "name": "Golang",
+            "level": "Intermediate",
+            "keywords": [
+                "wttr.in"
+            ]
+        },
+        {
+            "name": "Javascript",
+            "level": "Advanced",
+            "keywords": [
+                "D3",
+                "React",
+                "AntD"
+            ]
+        },
+        {
+            "name": "Natural Language Processing",
+            "level": "Beginning",
+            "keywords": [
+                "BERT modeling",
+                "NLTK",
+                "Toki Pona"
+            ]
+        },
+        {
+            "name": "Python",
+            "level": "Expert",
+            "keywords": [
+                "Asyncio",
+                "Flask",
+                "Gunicorn",
+                "Numpy",
+                "Pandas",
+                "Scipy",
+                "SpaCy",
+                "NLTK"
+            ]
+        },
+        {
+            "name": "Systems Administration",
+            "level": "Expert",
+            "keywords": [
+                "Cron",
+                "Bash",
+                "CentOS",
+                "Linux",
+                "Archlinux",
+                "Debian"
+            ]
+        },
+        {
+            "name": "Web Scraping",
+            "level": "Expert",
+            "keywords": [
+                "OSINT",
+                "Archival",
+                "Analysis",
+                "Backend"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language:": "English",
+            "fluency": "Native Speaker"
+        },
+        {
+            "language:": "Toki Pona",
+            "fluency": "Fluent"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Education",
+            "keywords": [
+                "Language Acquisition",
+                "Computer-Aided Learning"
+            ]
+        },
+        {
+            "name": "Ham Radio",
+            "keywords": [
+                "Electrical Engineering"
+            ]
+        },
+        {
+            "name": "Toki Pona",
+            "keywords": [
+                "language",
+                "education",
+                "NLP"
+            ]
+        },
+        {
+            "name": "Music Theory",
+            "keywords": [
+                "analysis",
+                "performance",
+                "education"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jonathan Frees",
+            "position": "Software Engineering Team Lead at Computer Forensics Research Laboratory",
+            "reference": "",
+            "email": "jmfrees@uab.edu",
+            "phone": "(205) 422-2113",
+            "url": "https://www.linkedin.com/in/jonathan-frees/"
+        },
+        {
+            "name": "Gary Warner",
+            "position": "Lab Coordinator at Computer Forensics Research Laboratory, Professor at University of Alabama at Birmingham",
+            "reference": "",
+            "email": "gar@uab.edu",
+            "phone": "(205) 422-2113",
+            "url": "https://www.linkedin.com/in/garwarner/"
+        },
+        {
+            "name": "Mahmut Unan",
+            "position": "Professor, Researcher at University of Alabama at Birmingham",
+            "reference": "",
+            "email": "unan@uab.edu",
+            "phone": ""
+        }
+    ],
+    "projects": [
+        {
+            "name": "Static Site Generator",
+            "description": "A static site generator I built and maintain for my personal/professional website(s).",
+            "highlights": [],
+            "keywords": [
+                "pandoc",
+                "make",
+                "markdown",
+                "node"
+            ],
+            "url": "https://github.com/gregdan3/gregdan3.github.io/",
+            "roles": [
+                "Creator"
+            ]
+        },
+        {
+            "name": "Mozilla Common Voice",
+            "description": "Collecting parallel voice and text to build an open corpus for training",
+            "highlights": [
+                "Translated entire user interface into Toki Pona",
+                "Contributed entry verification bugfixes to input on Pontoon"
+            ],
+            "keywords": [
+                "TTS",
+                "STT",
+                "Big data",
+                "NLP"
+            ],
+            "url": "https://commonvoice.mozilla.org/tok",
+            "roles": [
+                "Contributor",
+                "Translator"
+            ],
+            "type": "application"
+        },
+        {
+            "name": "wttr.in",
+            "description": "A weather service for your terminal. curl wttr.in",
+            "highlights": [
+                "Corrected a longstanding bug where the province (or state, for the US) would be omitted when searching for the current weather. For example, searching for the weather from Helena, Alabama would return the weather for Helena, Montana.",
+                "Adjusted the cache system in a backwards compatible manner to keep useful information from geolocation lookups."
+            ],
+            "keywords": [
+                "Python",
+                "Go",
+                "Geolocation",
+                "Weather"
+            ],
+            "url": "https://wttr.in/",
+            "roles": [
+                "Contributor"
+            ],
+            "type": "application"
+        },
+        {
+            "name": "n2yo-scraper",
+            "description": "A utility for scraping content from n2yo.com",
+            "keywords": [
+                "Webscraping"
+            ],
+            "url": "https://github.com/jmfrees/n2yo-scraper",
+            "type": "application"
+        },
+        {
+            "name": "Cool Space Things",
+            "description": "A visualization of man-made satellite data from n2yo at coolspacethings.neocities.org",
+            "keywords": [
+                "Javascript",
+                "D3",
+                "Design"
+            ],
+            "url": "https://coolspacethings.neocities.org/",
+            "type": "application"
+        },
+        {
+            "name": "Lilyvim",
+            "description": "A Lilypond music score previewing plugin for Vim",
+            "keywords": [
+                "vim",
+                "lilypond"
+            ],
+            "url": "https://github.com/gregdan3/lilyvim",
+            "type": "plugin"
+        },
+        {
+            "name": "Sysadmin Telebot",
+            "description": "A configurable Telegram bot for managing a remote system without opening a port",
+            "keywords": [
+                "automation",
+                "telegram",
+                "sysadmin"
+            ],
+            "url": "https://github.com/gregdan3/server-administration-bot",
+            "type": "application"
+        },
+        {
+            "name": "dunst",
+            "description": "A notification daemon for Unix environments",
+            "highlights": [
+                "Corrected a bug causing a segfault with certain combinations of arguments"
+            ],
+            "keywords": [
+                "C"
+            ],
+            "url": "https://github.com/dunst-project/dunst",
+            "roles": [
+                "Contributor"
+            ],
+            "type": "application"
+        },
+        {
+            "name": "chip8",
+            "description": "A chip8 emulator written in C",
+            "highlights": [
+                "Practiced C's build system, emulator development, UI design, an odd ASM"
+            ],
+            "keywords": [
+                "C"
+            ],
+            "url": "https://github.com/gregdan3/chip8",
+            "roles": [
+                "Creator"
+            ],
+            "type": "application"
+        },
+        {
+            "name": "Arch User Repository",
+            "description": "Ensuring the distribution of AUR packages important to my projects",
+            "roles": [
+                "Maintainer"
+            ],
+            "url": "https://aur.archlinux.org/account/gregdan3"
+        },
+        {
+            "name": "lipu Linku",
+            "description": "the most qualified and capable Toki Pona Dictionary Project",
+            "url": "https://lipu-linku.github.io/",
+            "roles": [
+                "Contributor"
+            ],
+            "type": "application"
+        },
+        {
+            "name": "Let's Learn Toki Pona!",
+            "description": "An ongoing effort to document everything possible with Toki Pona, in a format accessible to learners",
+            "url": "https://gregdan3.github.io/toki-pona/",
+            "roles": [
+                "Creator"
+            ],
+            "type": "article"
+        }
     ]
-  },
-  "work": [
-    {
-      "name": "UAB Computer Forensics Research Laboratory",
-      "position": "Software Developer",
-      "url": "https://www.uab.edu/cas/computerscience/research/research-labs/computer-forensics",
-      "startDate": "2018-10-01",
-      "summary": "",
-      "highlights": [
-        "Developed and maintained tools for capturing content from social media including Twitter, Reddit, and many other OSINT data sources",
-        "Developed a database design methodology for storing mass social media, OSINT data from a variety of sources and in a variety of formats into different PostgreSQL databases",
-        "Contributed to the design and implementation of a new access control system for use within the Computer Forensics Research Lab",
-        "Contributed to the design of many supportive webapps for accessing and analyzing aforementioned captured data",
-        "Re-designed devops methodology, webapp deploy process used by CFRL to enable developers to better test their applications locally and in CI",
-        "Researched and deployed an Elasticsearch cluster for use with ZomboDB, allowing elasticsearch-supported full text search in the form of a PostgreSQL index",
-        "Maintained and administered a pair of high performance CentOS servers for serving end users, mass compute, mass storage of data, running workers for aforementioned data capturing tools"
-      ]
-    },
-    {
-      "name": "University of Alabama at Birmingham",
-      "position": "Teaching Assistant",
-      "url": "https://www.uab.edu/cas/computerscience/",
-      "startDate": "2019-01-07",
-      "endDate": "2021-05-01",
-      "summary": "CS330 Computer Architecture and Assembly",
-      "highlights": [
-        "Developed and re-designed assignment structure",
-        "Created most documents used in lab materials",
-        "Developed consistent grading methodology",
-        "Ensured the success of hundreds of students in deeply understanding intel x86_64 ASM"
-      ]
-    },
-    {
-      "name": "UAB Computer Forensics Research Laboratory",
-      "position": "Programmer Supervisor",
-      "url": "https://www.uab.edu/cas/computerscience/research/research-labs/computer-forensics",
-      "startDate": "2018-12-01",
-      "endDate": "2019-03-27",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "Harbor Freight",
-      "position": "Team Member, Cashier",
-      "url": "https://www.harborfreight.com/",
-      "startDate": "2017-06-15",
-      "endDate": "2018-09-28",
-      "summary": "",
-      "highlights": []
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Alabama at Birmingham",
-      "url": "https://www.uab.edu/",
-      "area": "Computer Science",
-      "studyType": "Master",
-      "startDate": "2020-08-15",
-      "endDate": "2021-05-01",
-      "score": "4.0",
-      "courses": [
-        "CS632 Parallel Computing",
-        "CS636 Computer Security",
-        "CS643 Cloud Security",
-        "CS652 Advanced Algorithms and Applications",
-        "CS660 Artificial Intelligence"
-      ]
-    },
-    {
-      "institution": "University of Alabama at Birmingham",
-      "url": "https://www.uab.edu/",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2016-08-15",
-      "endDate": "2020-08-15",
-      "score": "3.76",
-      "courses": [
-        "CS334 Networking",
-        "CS401 Programming Languages",
-        "CS420 Software Engineering"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "President's List",
-      "awarder": "University of Alabama at Birmingham",
-      "summary": "Qualified for President's List (achieved 4.0 GPA after taking 12+ credit hours) in 3 out of 8 semesters."
-    },
-    {
-      "title": "Dean's List",
-      "awarder": "University of Alabama at Birmingham",
-      "summary": "Qualified for Dean's's List (achieved  >=3.6 GPA after taking 12+ credit hours) in 4 out of 8 semesters."
-    },
-    {
-      "title": "Presidential Recognition Scholarship",
-      "date": "2016-08-15",
-      "awarder": "University of Alabama at Birmingham",
-      "summary": "Highly competitive academic scholarship providing full tuition payment for UAB students qualifying via their academic accomplishments before college"
-    }
-  ],
-  "certificates": [
-    {
-      "title": "Cyber Security Certificate",
-      "date": "2021-05-01",
-      "awarder": "University of Alabama at Birmingham",
-      "summary": "Successfully completed a selection of courses centered on technological security throughout the completion of a Master of Science in Computer Science."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Architecture",
-      "keywords": [
-        "Apache",
-        "Docker",
-        "Elasticsearch",
-        "Flask",
-        "Graylog",
-        "Gunicorn",
-        "Kibana",
-        "Logstash",
-        "MongoDB",
-        "Nginx",
-        "Phusion Passenger",
-        "PostgreSQL",
-        "RabbitMQ",
-        "Redis",
-        "Traefik"
-      ]
-    },
-    { "name": "Assembly", "keywords": ["Intel x86_64", "GNU"] },
-    {
-      "name": "Backend Development",
-      "keywords": ["Web Scraping", "Design", "Python", "SQL"]
-    },
-    { "name": "C/C++", "keywords": ["Education", "Make"] },
-    {
-      "name": "Cloud Computing",
-      "keywords": ["AWS", "DigitalOcean", "Ansible"]
-    },
-    { "name": "Cyber Security" },
-    {
-      "name": "Database Administration",
-      "keywords": ["SQL", "MySQL", "PostgreSQL", "ZomboDB", "SQLite", "MongoDB"]
-    },
-    {
-      "name": "Devops",
-      "keywords": [
-        "Continuous Integration",
-        "Continuous Deployment",
-        "Unit Testing",
-        "Git",
-        "Version Control",
-        "Agile"
-      ]
-    },
-    {
-      "name": "Education",
-      "keywords": ["Lecture", "Lesson Planning", "Organization", "Tutoring"]
-    },
-    { "name": "Java", "keywords": ["JavaFX", "Swing"] },
-    { "name": "Javascript", "keywords": ["D3", "React"] },
-    {
-      "name": "Networking",
-      "keywords": ["DNS", "Bind9", "VPN", "TCP"]
-    },
-    {
-      "name": "Python",
-      "keywords": [
-        "Asyncio",
-        "Flask",
-        "Gunicorn",
-        "Numpy",
-        "Pandas",
-        "Requests",
-        "Scipy",
-        "SpaCy"
-      ]
-    },
-    {
-      "name": "Systems Administration",
-      "keywords": ["Cron", "Bash", "CentOS", "Linux", "Archlinux", "Debian"]
-    },
-    { "name": "Vim", "keywords": ["Development"] },
-    { "name": "Web Scraping", "keywords": ["OSINT", "Archival", "Backend"] }
-  ],
-  "references": [
-    {
-      "name": "Jonathan Frees",
-      "position": "Lead Software Developer at Computer Forensics Research Laboratory",
-      "reference": "",
-      "email": "jmfrees@uab.edu",
-      "phone": "(205) 422-2113"
-    },
-    {
-      "name": "Gary Warner",
-      "position": [
-        "Lab Coordinator at Computer Forensics Research Laboratory",
-        "Professor at University of Alabama at Birmingham"
-      ],
-      "reference": "",
-      "email": "gar@uab.edu",
-      "phone": "(205) 422-2113"
-    },
-    {
-      "name": "Mahmut Unan",
-      "position": "Professor at University of Alabama at Birmingham",
-      "reference": "",
-      "email": "unan@uab.edu",
-      "phone": ""
-    }
-  ],
-  "projects": [
-    {
-      "name": "n2yo-scraper",
-      "description": "",
-      "highlights": [],
-      "keywords": ["Webscraping"],
-      "url": "https://coolspacethings.neocities.org/",
-      "type": "application"
-    },
-    {
-      "name": "Cool Space Things",
-      "description": "A novel visualization of satellite metadata from n2yo",
-      "highlights": [],
-      "keywords": ["Javascript", "D3", "Design"],
-      "url": "https://coolspacethings.neocities.org/",
-      "type": "application"
-    },
-    {
-      "name": "wttr.in",
-      "description": "A weather service for your terminal. `curl https://wttr.in/`",
-      "highlights": [
-        "Corrected a longstanding bug where the province (or state, for the US) would be omitted when searching for the current weather. For example, searching for the weather from Helena, Alabama would return the weather for Helena, Montana.",
-        "Adjusted the cache system in a backwards compatible manner to keep otherwise unused information resulting from geolocation lookups."
-      ],
-      "keywords": ["Python", "Go", "Geolocation", "Weather"],
-      "url": "https://wttr.in/",
-      "roles": ["Contributor"],
-      "type": "application"
-    }
-  ]
 }
