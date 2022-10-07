@@ -1,10 +1,12 @@
-RESUMECLI=$(shell npm bin)/resume
+RESUMECLI=npx resume
 
 INPUT=resume.json
-THEME=kendall
+THEME=kendall-plus
+
+FORMAT=html
 
 BUILD_OUTDIR=./out
-BUILD_OUTPUT=gregdan3-resume.html
+BUILD_OUTPUT=gregdan3-resume.$(FORMAT)
 SERVE_OUTDIR=./public
 SERVE_OUTPUT=index.html
 # TODO: SERVE_OUTPUT changes depending on theme
