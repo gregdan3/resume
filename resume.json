@@ -4,9 +4,9 @@
     "label": "Software Engineering Team Lead",
     "image": "https://user-images.githubusercontent.com/28300107/194593566-b9b3247d-33d6-4f26-98c0-7c35184e6f97.png",
     "image_old": "https://user-images.githubusercontent.com/28300107/194460377-ed121b18-0131-4406-98d5-38b7fadb1c29.png",
-    "email": "gregory.danielson3@gmail.com",
+    "email3": "gregory.danielson3@gmail.com",
     "email2": "gregdan3@protonmail.com",
-    "email3": "gregdan3@pm.me",
+    "email": "gregdan3@pm.me",
     "phone_": "(205) 410-3412",
     "url": "https://gregdan3.dev",
     "summary": "Software engineer looking to combine my interests in community organization/safety, natural language processing/acquisition, and education. Four years of experience in data-driven discovery and capture of illicit activity on many platforms including Facebook, Twitter, Instagram. Test, review, adjust is my core philosophy; you can't know without testing.",
@@ -46,30 +46,9 @@
       "startDate": "2022-12-01",
       "summary": "",
       "highlights": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Re-designed production systems to enable faster iteration on products and services",
+        "Trained incoming developers on our systems and technologies",
+        "Implemented Machine Learning techniques for our database technologies to capitalize on our historical data"
       ]
     },
     {
@@ -165,6 +144,20 @@
   ],
   "skills": [
     {
+      "name": "Python",
+      "level": "Expert",
+      "keywords": [
+        "Asyncio",
+        "Flask",
+        "Gunicorn",
+        "Numpy",
+        "Pandas",
+        "Scipy",
+        "SpaCy",
+        "NLTK"
+      ]
+    },
+    {
       "name": "Architecture",
       "level": "Expert",
       "keywords": [
@@ -182,21 +175,16 @@
       ]
     },
     {
-      "name": "Cloud Computing",
-      "level": "Intermediate",
-      "keywords": ["AWS", "GCP", "DigitalOcean", "Ansible", "Microservices"]
-    },
-    {
-      "name": "Database Administration",
-      "level": "Advanced",
+      "name": "System Administration",
+      "level": "Expert",
       "keywords": [
-        "PostgreSQL",
-        "Elasticsearch",
-        "SQL",
-        "MySQL",
-        "ZomboDB",
-        "SQLite",
-        "MongoDB"
+        "Cron",
+        "Bash",
+        "CentOS",
+        "Linux",
+        "Archlinux",
+        "Debian",
+        "Wireshark"
       ]
     },
     {
@@ -211,6 +199,31 @@
       ]
     },
     {
+      "name": "Database Administration",
+      "level": "Advanced",
+      "keywords": [
+        "PostgreSQL",
+        "Elasticsearch",
+        "SQL",
+        "ZomboDB",
+        "SQLite",
+        "Neo4j",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "DigitalOcean",
+        "Ansible",
+        "Architecture",
+        "Distributed Systems"
+      ]
+    },
+    {
       "name": "Education, Public Speaking",
       "level": "Expert",
       "keywords": ["Lecture", "Lesson Planning", "Organization", "Tutoring"]
@@ -218,31 +231,12 @@
     {
       "name": "Web Development",
       "level": "Advanced",
-      "keywords": ["D3", "React", "AntD", "Svelte", "TailwindCSS"]
+      "keywords": ["React", "Sass", "Svelte", "TailwindCSS"]
     },
     {
       "name": "Natural Language Processing",
       "level": "Beginning",
-      "keywords": ["BERT modeling", "NLTK", "Toki Pona"]
-    },
-    {
-      "name": "Python",
-      "level": "Expert",
-      "keywords": [
-        "Asyncio",
-        "Flask",
-        "Gunicorn",
-        "Numpy",
-        "Pandas",
-        "Scipy",
-        "SpaCy",
-        "NLTK"
-      ]
-    },
-    {
-      "name": "Systems Administration",
-      "level": "Expert",
-      "keywords": ["Cron", "Bash", "CentOS", "Linux", "Archlinux", "Debian"]
+      "keywords": ["BERT modeling", "NLTK", "Toki Pona", "SpaCy"]
     },
     {
       "name": "Web Scraping",
@@ -302,24 +296,49 @@
   ],
   "projects": [
     {
-      "name": "Linku: a Toki Pona dictionary in a bot, database, and website",
-      "description": "Toki Pona previously had dozens of differently thorough and opinionated dictionaries. Now it has one, and a collection of tools to make that data useful.",
+      "name": "Linku: a Toki Pona dictionary in a bot, site, and database",
+      "description": "Toki Pona previously had dozens of differently thorough and opinionated dictionaries. Now it has one, and a collection of tools to make that data accessible.",
       "highlights": [
-        "Automatic updating of font data",
+        "Re-designed search in web dictionary to better match user expectations",
+        "Applied same search improvements to bot with special consideration for its Discord interface",
+        "Automated updating font data to support pre-existing metadata ecosystem",
         "Designed a reproducible prod environment for bot",
-        "Improved interactivity and informativity of dictionary"
+        "Adjusted JSON schema to improve querying consistency for certain obscure data (etymology)"
       ],
-      "keywords": ["discord", "database", "bot", "nlp"],
+      "keywords": ["discord", "database", "bot", "nlp", "Toki Pona"],
       "url": "https://linku.la",
       "url2": "https://github.com/lipu-linku/",
-      "roles": ["Contributor"]
+      "roles": ["Maintainer"]
     },
     {
-      "name": "Static Site Generator I Guess",
-      "description": "A static site generator I built for my websites.",
-      "highlights": ["Content distribution purely via repo"],
+      "name": "ilo pi toki pona taso: Tool for only Toki Pona",
+      "description": "A Discord bot that enforces anyone and everyone speaks Toki Pona- add to your server now!",
+      "highlights": [
+        "Responds near instantly to use in ~20 servers, including the >10,000 member 'ma pona pi toki pona'",
+        "Massively customizable behavior for both servers and end users"
+      ],
+      "keywords": ["discord", "bot", "nlp", "Toki Pona"],
+      "url": "https://github.com/gregdan3/ilo-pi-toki-pona-taso",
+      "roles": ["Creator"]
+    },
+    {
+      "name": "wttr.in",
+      "description": "A weather service for your terminal. `curl wttr.in`",
+      "highlights": [
+        "Corrected a longstanding bug where the province (or state, for the US) would be omitted when searching for the current weather. For example, searching for the weather from Helena, Alabama would return the weather for Helena, Montana.",
+        "Adjusted the cache system in a backwards compatible manner to preserve all metadata from geolocation lookups."
+      ],
+      "keywords": ["python", "go", "geolocation", "weather", "terminal"],
+      "url": "https://wttr.in/",
+      "roles": ["Contributor"],
+      "type": "application"
+    },
+    {
+      "name": "SWGIG: Static Website Generator I Guess",
+      "description": "Simple, low to the ground, WYSIWYG style static website generator that I made for my websites. No tricks, just markdown and pandoc!",
+      "highlights": [],
       "keywords": ["pandoc", "make", "markdown", "node"],
-      "url": "https://github.com/gregdan3/gregdan3.github.io/",
+      "url": "https://github.com/gregdan3/SWGIG",
       "roles": ["Creator"]
     },
     {
@@ -335,42 +354,23 @@
       "type": "application"
     },
     {
-      "name": "wttr.in",
-      "description": "A weather service for your terminal. curl wttr.in",
-      "highlights": [
-        "Corrected a longstanding bug where the province (or state, for the US) would be omitted when searching for the current weather. For example, searching for the weather from Helena, Alabama would return the weather for Helena, Montana.",
-        "Adjusted the cache system in a backwards compatible manner to keep useful information from geolocation lookups."
-      ],
-      "keywords": ["Python", "Go", "Geolocation", "Weather"],
-      "url": "https://wttr.in/",
-      "roles": ["Contributor"],
-      "type": "application"
-    },
-    {
       "name": "Cool Space Things",
       "description": "A visualization of man-made satellite data from n2yo at coolspacethings.neocities.org",
-      "keywords": ["Javascript", "D3", "Design"],
+      "keywords": ["javascript", "d3"],
       "url": "https://coolspacethings.neocities.org/",
       "type": "application"
     },
     {
       "name": "Lilyvim",
-      "description": "A plugin to preview Lilypond scores while editing them in Vim.",
+      "description": "Preview Lilypond scores while editing them in Vim.",
       "keywords": ["vim", "lilypond"],
       "url": "https://github.com/gregdan3/lilyvim",
       "type": "plugin"
     },
     {
-      "name": "Sysadmin Telebot",
-      "description": "A configurable Telegram bot for managing a remote system without opening a port",
-      "keywords": ["automation", "telegram", "sysadmin"],
-      "url": "https://github.com/gregdan3/server-administration-bot",
-      "type": "application"
-    },
-    {
       "name": "chip8",
-      "description": "A chip8 emulator written in C",
-      "highlights": ["Practiced emulator development, UI design, an odd ASM"],
+      "description": "A chip8 emulator written in C, so I could play with emulators, UI design, and a weird version of ASM",
+      "highlights": [],
       "keywords": ["C"],
       "url": "https://github.com/gregdan3/chip8",
       "roles": ["Creator"],
