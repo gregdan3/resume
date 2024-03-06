@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "jsonresume-theme-kendall-plus": "^0.3.0",
-    "resume-cli": "^3.0.5",
+    "jsonresume-theme-kendall-plus": "^0.3.1",
+    "resume-cli": "^3.0.8",
     "resume-schema": "^1.0.0"
   }
 }

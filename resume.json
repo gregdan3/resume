@@ -1,1 +1,242 @@
-./engineer-resume.json
+{
+  "basics": {
+    "name": "Gregory Danielson III",
+    "label": "Programming Manager",
+    "image": "https://github.com/gregdan3/ilo-pi-toki-pona-taso/assets/28300107/ddc3cbfd-02d0-4fe8-bac1-77d82aa3d4b0",
+    "image1": "https://user-images.githubusercontent.com/28300107/194593566-b9b3247d-33d6-4f26-98c0-7c35184e6f97.png",
+    "image2": "https://user-images.githubusercontent.com/28300107/194460377-ed121b18-0131-4406-98d5-38b7fadb1c29.png",
+    "email": "gregdan3@protonmail.com",
+    "url": "https://beta.gregdan3.dev",
+    "summary": "Programming Manager specializing in community safety via natural language processing. Over five years developing technologies to detect illicit activity on social media platforms, building automation solutions to ensure maximum uptime of our safety technologies, and training developers for success in all areas through honed insight and leadership.",
+    "location": {
+      "city": "Birmingham",
+      "region": "AL",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "gregdan3",
+        "url": "https://github.com/gregdan3"
+      },
+      {
+        "network": "Linkedin",
+        "username": "gregdan3",
+        "url": "https://www.linkedin.com/in/gregdan3/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "DarkTower",
+      "position": "Programming Manager",
+      "url": "https://getdarktower.com/",
+      "startDate": "2024-02-01",
+      "summary": "Leading the re-architecture of our social media analysis tools toward a new, more sustainable monetization model",
+      "description": "",
+      "location": "Birmingham, AL",
+      "highlights": []
+    },
+    {
+      "name": "Computer Forensics Research Laboratory",
+      "location": "Birmingham, AL",
+      "description": "Studying social media to identify criminal activity and stop it.",
+
+      "position": "Software Engineering Team Lead",
+      "startDate": "2022-12-01",
+      "endDate": "2024-01-31",
+      "summary": "Led the development of state of the art discovery/analysis technologies for identifying criminal activity on social media",
+      "highlights": [
+        "Led research and implementation of a facial recognition index built on our social media data, created with python's deepface and elasticsearch's small world graph discovery",
+        "Began work on a database redesign which would enable full cross-platform entity discovery",
+        "Re-designed production systems to build onto a cloud-lite Docker Swarm cluster to enable faster iteration on products and services",
+        "Improved speed and consistency of Gitlab CI, with added support for our database images, more of our services, and automated new version publishing",
+        "Trained incoming developers on our systems, technologies, and development methodology to encourage success"
+      ]
+    },
+    {
+      "name": "Computer Forensics Research Laboratory",
+      "location": "Birmingham, AL",
+      "position": "Software Engineer",
+      "startDate": "2018-10-01",
+      "endDate": "2022-12-01",
+      "summary": "Database and systems administration, devops, backend development, archicture, technical leadership.",
+      "highlights": [
+        "Led technical projects to the signing of several high-value contracts, including the acquisition of a $750,000 contract for our work on Twitter",
+        "Developed and maintained tools for capturing content from social media including Twitter, Facebook, Instagram, and other OSINT data sources",
+        "Developed a data model for storing and accessing mass social media data across multiple platforms to/from a highly available PostgreSQL cluster",
+        "Disigned and contributed to many supportive React webapps with an asynchronous python web backend for accessing and analyzing aforementioned captured data",
+        "Re-designed devops/deployment process into automated test, report, deploy scheme on Gitlab CI, resulting in faster iteration and more uptime",
+        "Deployed and administrated an Elasticsearch cluster, allowing elasticsearch-supported full text search in the form of a PostgreSQL index",
+        "Maintained and administered a pair of high performance CentOS servers for serving end users, mass compute, mass storage of data, running workers for aforementioned data capturing tools"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Alabama at Birmingham",
+      "url": "https://www.uab.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2016-08-15",
+      "endDate": "2020-08-15",
+      "score": "3.76",
+      "courses": [
+        "CS334 Networking",
+        "CS401 Programming Languages",
+        "CS420 Software Engineering"
+      ]
+    },
+    {
+      "institution": "University of Alabama at Birmingham",
+      "url": "https://www.uab.edu/",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2020-08-15",
+      "endDate": "2021-05-01",
+      "score": "4.0",
+      "courses": [
+        "CS632 Parallel Computing",
+        "CS643 Cloud Security",
+        "CS660 Artificial Intelligence"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Devops",
+      "level": "Senior",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Ansible",
+        "Gitlab CI/CD",
+        "Github Actions",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Senior",
+      "keywords": ["Python", "Golang", "NodeJS"]
+    },
+    {
+      "name": "Database",
+      "level": "Senior",
+      "keywords": ["PostgreSQL", "Elasticsearch", "SQLite", "EdgeDB", "ZomboDB"]
+    },
+    {
+      "name": "Frontend",
+      "level": "",
+      "keywords": ["TypeScript", "SvelteKit", "TailwindCSS"]
+    },
+    {
+      "name": "Leadership",
+      "keywords": ["Agile", "Public Speaking", "Mentorship", "Education"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Toki Pona",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source",
+      "keywords": ["backend", "database", "natural language processing"]
+    },
+    {
+      "name": "Toki Pona",
+      "keywords": [
+        "language acquisition",
+        "education",
+        "public speaking",
+        "natural language processing"
+      ]
+    },
+    {
+      "name": "Ham Radio",
+      "keywords": ["electrical engineering"]
+    },
+    {
+      "name": "Education",
+      "keywords": ["language acquisition", "computer-aided learning"]
+    },
+    {
+      "name": "Running",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Laurence Thompson",
+      "position": "Software Engineer & Analyst @ Mitre",
+      "reference": "",
+      "email": "lthompson@gmail.com",
+      "phone": "(720) 341-2375",
+      "url": "https://www.linkedin.com/in/laura-thompson-uab/"
+    },
+    {
+      "name": "Jonathan Frees",
+      "position": "Senior Search Engineer @ Shipt",
+      "reference": "",
+      "email": "jmfrees@uab.edu",
+      "phone": "(205) 422-2113",
+      "url": "https://www.linkedin.com/in/jonathan-frees/"
+    },
+    {
+      "name": "Gary Warner",
+      "position": "Lab Coordinator at Computer Forensics Research Laboratory, Professor at University of Alabama at Birmingham",
+      "reference": "",
+      "email": "gar@uab.edu",
+      "phone": "(205) 422-2113",
+      "url": "https://www.linkedin.com/in/garwarner/"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Linku: a Toki Pona dictionary in a bot, site, and database",
+      "description": "The Toki Pona community had dozens of differently thorough and opinionated dictionaries. Now it has one, with a collection of suppporting tools to help anyone use the data.",
+      "highlights": [
+        "Redesigned and automated testing of data scheme in a way which compromises between non-tech accessibility and computer-aided searching, improving consistency",
+        "Connected frontend with Crowdin for up-to-date translation availability in over 40 languages",
+        "Re-designed search in web dictionary and discord bot to better match user expectations",
+        "Designed a reproducible environment for bot development and deployment"
+      ],
+      "keywords": ["discord", "database", "bot", "nlp", "Toki Pona"],
+      "url": "https://linku.la",
+      "url2": "https://github.com/lipu-linku/",
+      "roles": ["Maintainer"],
+      "type": "application"
+    },
+    {
+      "name": "ilo pi toki pona taso: Tool for only Toki Pona",
+      "description": "A Discord bot that reminds you to speak Toki Pona! Now with features!",
+      "highlights": [
+        "Responds near instantly to use in ~30 servers, including the >10,000 member 'ma pona pi toki pona' and >4000 member 'kama sona'.",
+        "Customizable behavior for both servers and end users",
+        "Implements novel methods of detecting Toki Pona, allowing for a wide variety of means of speaking while still having a high accuracy and precision."
+      ],
+      "keywords": ["discord", "bot", "nlp", "Toki Pona"],
+      "url": "https://github.com/gregdan3/ilo-pi-toki-pona-taso",
+      "roles": ["Creator"]
+    },
+    {
+      "name": "wttr.in",
+      "description": "A weather service for your terminal. `curl wttr.in`",
+      "highlights": [
+        "Corrected a longstanding bug where the province/state would be lost when searching for the current weather by IP. For example, fetching weather from a Helena, Alabama IP would return weather for Helena, Montana.",
+        "Adjusted the cache system in a backwards compatible manner to preserve all metadata from geolocation lookups."
+      ],
+      "keywords": ["python", "go", "geolocation", "weather", "terminal"],
+      "url": "https://wttr.in/",
+      "roles": ["Contributor"],
+      "type": "application"
+    }
+  ]
+}
