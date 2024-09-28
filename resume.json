@@ -37,7 +37,7 @@
         "Securing partnerships with organizations interested in our online safety technologies",
         "Leading development of dark web scraping tools to provide early warnings for ransomware attacks",
         "Studying online election interference in order to identify and combat it",
-        "Continued work on re-designed data model and delivery process to unite cross-platform data"
+        "Began development of a re-designed data model and delivery process to unite cross-platform data"
       ]
     },
     {
@@ -51,8 +51,7 @@
       "highlights": [
         "Led research and implementation of facial recognition search over our social media photo dataset, enabling new investigation methods",
         "Improved speed and consistency of CI/CD, with added support for our databases and automated version tagging to aid rollback",
-        "Trained incoming developers on our systems, technologies, and development methodology to onboard and iterate rapidly",
-        "Began work on a database redesign which would enable full cross-platform entity discovery"
+        "Trained incoming developers on our systems, technologies, and development methodology to onboard and iterate rapidly"
       ]
     },
     {
@@ -63,10 +62,9 @@
       "summary": "Database and systems administration, devops, backend development, archicture, technical leadership.",
       "highlights": [
         "Led technical projects key to signing several important contracts, including a $750,000 contract based on our Twitter data",
-        "Developed and maintained tools for capturing data from top social media platforms",
         "Designed and deployed PostgreSQL and Elasticsearch instances, allowing efficient data retrieval and full text search",
-        "Designed and contributed to many supportive React webapps for analyzing social media data",
-        "Re-designed and fully automated deployment via Gitlab CI to Docker production enviroment, resulting in faster iteration and more uptime",
+        "Designed and contributed to many capture and analysis applications to enable and improve investigations",
+        "Automated deployment via Gitlab CI to Docker production enviroment, resulting in faster iteration and more uptime",
         "Maintained and administered a pair of high performance CentOS servers serving as the backbone of our software and services"
       ]
     }
@@ -200,12 +198,11 @@
   "projects": [
     {
       "name": "ilo Muni: Google Ngrams for Toki Pona",
-      "description": "Graph trends in how Toki Pona is used, for research and for fun!",
+      "description": "Graph trends in how Toki Pona is used, for research and fun!",
       "highlights": [
         "Near comprehensive coverage of public sources of written Toki Pona",
-        "Far more options than Google Ngrams, to help analyze, understand, and compare words of different magnitudes and contexts",
-        "Self-explanatory user interface with sensible defaults and preset queries serving as an example-driven tutorial",
-        "Open source frontend and data to enable contributions, research, and other projects built on the same data"
+        "Many options for analysis and comparison of words in different magnitudes and contexts",
+        "Accessible interface with sensible defaults and sample queries as example-driven tutorials"
       ],
       "keywords": [],
       "url": "https://gregdan3.github.io/ilo-muni/",
@@ -218,8 +215,7 @@
       "description": "A Python library for determining if a given message is in Toki Pona",
       "highlights": [
         "Implements the best known heuristic for detecting Toki Pona among semi-arbitrary text, enabling research and natural language processing projects",
-        "Highly customizable algorithm to suit the preferences of different speakers",
-        "Extensible design allows users to make custom additions for any purpose"
+        "Highly customizable algorithm to suit the preferences of different speakers"
       ],
       "keywords": ["natural language processing", "toki pona"],
       "url": "https://github.com/gregdan3/sona-toki/",
@@ -231,7 +227,6 @@
       "description": "There were dozens of differently thorough and opinionated dictionaries for Toki Pona. Now there is one, with many supporting tools to help anyone use it.",
       "highlights": [
         "Connected frontend with Crowdin for up-to-date translation availability in over 50 languages",
-        "Improved search in web dictionary and discord bot to better match user expectations",
         "Created a reproducible environment for bot development and deployment"
       ],
       "keywords": ["discord", "database", "bot", "nlp", "Toki Pona"],
@@ -245,8 +240,7 @@
       "description": "A Discord bot that reminds you to speak Toki Pona! Now with features!",
       "highlights": [
         "Responds instantly in >40 servers, including the >14,000 member 'ma pona pi toki pona'",
-        "Provides practice for newbies and runs events in servers throughout the community",
-        "Customizable behavior for servers and users to suit events and speaker preferences"
+        "Provides customizable practice for newbies and events for servers throughout the community"
       ],
       "keywords": ["discord", "bot", "nlp", "Toki Pona"],
       "url": "https://github.com/gregdan3/ilo-pi-toki-pona-taso",
